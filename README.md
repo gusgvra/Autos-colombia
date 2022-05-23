@@ -1,5 +1,5 @@
-# control-vehiculas-unicor
-(Proyecto educativo) Pagina para controlar la entrada y salida de vehiculos en la Universidad de Cordoba
+# Control de vehiculos
+(Proyecto educativo) Pagina para controlar la entrada y salida de vehiculos 
 
 
 ## Generalidades
@@ -11,23 +11,7 @@ Antes de que la contraseña se inserte en la base de datos, ésta es cifrada con
 
 La opcion "¿Olvidó su contraseña?" funciona creando un codigo de verificacion, para el cual se usó SHA-1, éste codigo se envia al correo  haciendo uso de PHPMailler, este codigo es almacenado en la base de datos a espera de que quien lo reciba lo ingrese en la plataforma para confirmar el acceso a una nueva contraseña.
 
-Otras caracteristicas: 
-- Arquitectura de desarrollo, MVC
-- Las peticiones se hacen utilizando AJAX, 
-- Lenguaje de programacion: PHP version 7.3.7
-- Lenguaje de consultas: SQL
-- SGBD: MySQL
-- HTML5
-- Bootstrap
-- JQuery
-- JavaScript
-- CSS
 
-# Dashboard
-![Dashboard](https://raw.githubusercontent.com/luismigeek/control-vehicular-unicor/master/assets/home.png)
 
-# Vehiculos registrados
-![Vehiculos registrados](https://raw.githubusercontent.com/luismigeek/control-vehicular-unicor/master/assets/vehiculos.png)
 
-# Panel Admin
-![Panel admin](https://raw.githubusercontent.com/luismigeek/control-vehicular-unicor/master/assets/admin.png)
+
